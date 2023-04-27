@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .transition-smooth {
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+      }
+      
+      .transition-smooth:hover {
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+      }
+}
+
+
 body{
     @apply bg-zinc-100
+}
+
+html {
+    @apply w-full
 }

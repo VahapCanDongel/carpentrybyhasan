@@ -11,8 +11,8 @@ function App() {
 
 
   return (
-    <div className="flex flex-col w-full items-center">
-      <div className="flex flex-col w-full items-center ">
+    <div className="flex flex-col w-full items-center sm:w-full">
+      <div className="flex flex-col w-full items-center  sm:w-full">
         <Navigation />
         <Welcome />
         <About />
