@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
     return (
         <div className="flex w-1/2 items-center justify-center my-20 flex-col mx-auto sm:w-full sm:p-2">
-            <div className="flex items-center gap-16 xl:flex-col sm:w-full sm:justify-center sm:items-center">
+            <div className="flex items-center justify-center gap-16 xl:flex-col sm:w-full sm:justify-center sm:items-center">
                 <div>
                     <div className="mr-auto font-bold text-[50px] xl:text-4xl lg:text-3xl">
                         About Us
