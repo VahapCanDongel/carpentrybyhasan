@@ -12,7 +12,7 @@ export default function Navigation() {
         <li className="bg-gray-200 p-2 rounded-sm">Contact</li>
       </ul>
 
-      <div className="bg-gray-200 w-[60px] h-[60px] rounded-sm flex justify-center items-center lg:invinsible sm:visible md:visible">
+      <div className="hidden sm:bg-gray-200 sm:w-[60px] sm:h-[60px] sm:rounded-sm sm:flex sm:justify-center sm:items-center sm:visible md:hidden">
         <svg
           width="46"
           height="46"
