@@ -1,9 +1,9 @@
 export default function Projects() {
     return (
-        <div className="flex w-1/2 items-center justify-center my-20 flex-col sm:w-full">
+        <div className="flex w-1/2 items-center justify-center my-20 flex-col sm:w-full sm:p-2">
 
 
-            <div className="mr-auto font-bold text-[50px]">
+            <div className="mr-auto font-bold text-[50px] xl:text-4xl lg:text-3xl">
                 Projects
             </div>
 
