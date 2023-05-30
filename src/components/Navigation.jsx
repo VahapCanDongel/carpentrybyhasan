@@ -1,10 +1,10 @@
 export default function Navigation() {
   return (
-    <div className="flex justify-between items-center w-1/2 p-4 h-[150px] sm:w-full">
+    <div className="flex justify-between items-center w-1/2 p-4 sm:w-full bg-zinc-200">
       <div className="border-[1px] border-gray-400 w-[80px] h-[80px] rounded-full p-2">
-        <img src="https://www.zarla.com/images/zarla-true-handcraft-1x1-2400x2400-20210629-7wjgqv9396j3pdcxrq7j.png?crop=1:1,smart&width=250&dpr=2"/>
+        <img src="https://www.zarla.com/images/zarla-true-handcraft-1x1-2400x2400-20210629-7wjgqv9396j3pdcxrq7j.png?crop=1:1,smart&width=250&dpr=2" />
       </div>
-      <ul className="flex gap-4 items-center sm:hidden">
+      <ul className="flex gap-8 items-center cursor-pointer sm:hidden text-xl">
         <li>About</li>
         <li>Services</li>
         <li>Testimonlials</li>

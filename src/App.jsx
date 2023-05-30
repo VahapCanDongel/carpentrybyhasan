@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="flex flex-col w-full items-center sm:w-full">
-      <div className="flex flex-col w-full items-center  sm:w-full">
+      <div className="flex flex-col w-full items-center  sm:w-full font-heebo bg-zinc-200">
         <Navigation />
         <Welcome />
         <About />
