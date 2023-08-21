@@ -9,12 +9,12 @@ export default function Projects() {
 
             <div className="flex flex-col gap-4 mr-auto justify-between w-full mt-6 sm:w-full">
                 <div className="flex gap-4 justify-between w-full sm:flex-col sm:w-full  sm:justify-center sm:items-center flex-wrap">
-                    <img src="public\image_1.jpg" className="w-[350px] h-[300px] rounded-sm sm:w-[400px]" />
-                    <img src="public\image_2.jpg" className="w-[350px] h-[300px] rounded-sm sm:w-[400px]" />
-                    <img src="public\image_3.jpg" className="w-[350px] h-[300px] rounded-sm sm:w-[400px]" />
-                    <img src="public\image_4.jpg" className="w-[350px] h-[300px] rounded-sm sm:w-[400px]" />
-                    <img src="public\image_5.jpg" className="w-[350px] h-[300px] rounded-sm sm:w-[400px]" />
-                    <img src="public\image_6.jpg" className="w-[350px] h-[300px] rounded-sm sm:w-[400px]" />
+                    <img src="https://i.ibb.co/WpSxN4W/image-1.jpg" className="w-[350px] h-[300px] rounded-sm sm:w-[400px]" />
+                    <img src="https://i.ibb.co/6YgTC2Z/image-2.jpg" className="w-[350px] h-[300px] rounded-sm sm:w-[400px]" />
+                    <img src="https://i.ibb.co/ScSNXDq/image-3.jpg" className="w-[350px] h-[300px] rounded-sm sm:w-[400px]" />
+                    <img src="https://i.ibb.co/HzcPfQJ/image-4.jpg" className="w-[350px] h-[300px] rounded-sm sm:w-[400px]" />
+                    <img src="https://i.ibb.co/m4GHJXh/image-5.jpg" className="w-[350px] h-[300px] rounded-sm sm:w-[400px]" />
+                    <img src="https://i.ibb.co/vqLfppX/image-6.jpg" className="w-[350px] h-[300px] rounded-sm sm:w-[400px]" />
 
                 </div>
 
