@@ -1,9 +1,9 @@
 export default function Navigation() {
   return (
-    <div className="flex justify-between items-center w-1/2 p-4 sm:w-full bg-zinc-200">
-      <div className="border-[1px] border-gray-400 w-[80px] h-[80px] rounded-full p-2">
-        <img src="https://www.zarla.com/images/zarla-true-handcraft-1x1-2400x2400-20210629-7wjgqv9396j3pdcxrq7j.png?crop=1:1,smart&width=250&dpr=2" />
-      </div>
+    <div className="flex justify-center items-center w-1/2 p-4 sm:w-full gap-[500px] bg-zinc-200 sm:justify-between sm:gap-0">
+
+      <img src="https://i.ibb.co/9qtN66y/c03daa7a-df6e-4717-93b3-40ddb7aec2f0.jpg" className=" w-[100px] h-[100px] rounded-full p-2 object-cover" />
+
       <ul className="flex gap-8 items-center cursor-pointer sm:hidden text-xl">
         <li>About</li>
         <li>Services</li>
