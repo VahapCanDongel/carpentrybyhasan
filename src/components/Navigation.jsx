@@ -1,13 +1,13 @@
 export default function Navigation() {
   return (
-    <div className="flex justify-center items-center w-1/2 p-4 sm:w-full gap-[500px] bg-zinc-200 sm:justify-between sm:gap-0">
+    <div className="flex justify-center items-center w-1/2 p-4 sm:w-full gap-[500px]  sm:justify-between sm:gap-0">
 
       <img src="https://i.ibb.co/9qtN66y/c03daa7a-df6e-4717-93b3-40ddb7aec2f0.jpg" className=" w-[100px] h-[100px] rounded-full p-2 object-cover" />
 
       <ul className="flex gap-8 items-center cursor-pointer sm:hidden text-xl">
         <li>About</li>
         <li>Services</li>
-        <li>Testimonlials</li>
+        <li>Testimonials</li>
         <li>Projects</li>
         <li className="bg-gray-200 p-2 rounded-sm">Contact</li>
       </ul>
