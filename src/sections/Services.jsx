@@ -2,7 +2,7 @@ import ServiceCard from "../components/ServiceCard";
 
 export default function Services() {
     return (
-        <div className="flex w-1/2 h-[700px] items-center justify-center my-20 flex-col sm:w-full sm:p-2 sm:mt-[370px]">
+        <div className="flex w-1/2 h-[700px] items-center justify-center my-20 flex-col sm:w-full sm:p-2 sm:mt-[370px]" id="service">
 
             <div className="mr-auto font-bold text-[50px] xl:text-4xl lg:text-3xl">
                 Services

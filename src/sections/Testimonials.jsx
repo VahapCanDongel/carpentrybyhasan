@@ -2,7 +2,7 @@ import TestimonialCard from "../components/TestimonialCard";
 
 export default function Testimonials() {
     return (
-        <div className="flex w-1/2 items-center justify-center my-20 flex-col mx-auto sm:w-full sm:p-2 sm:mt-[370px]">
+        <div className="flex w-1/2 items-center justify-center my-20 flex-col mx-auto sm:w-full sm:p-2 sm:mt-[370px]" id="testimonials">
 
             <div className="mr-auto font-bold text-[50px] xl:text-4xl lg:text-3xl">
                 Testimonials

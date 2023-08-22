@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Welcome() {
     return (
-        <div className="w-full mt-5 mb-20 sm:w-full">
+        <div className="w-full mt-5 mb-20 sm:w-full" id='about'>
             <div className="w-full relative sm:w-full sm:h-96 h-[500px] flex items-center justify-center">
                 <img
                     src="https://www.betterteam.com/images/lead-carpenter-job-description-6240x4160-20201118_2020-11-18-153427.jpeg"
@@ -23,7 +23,7 @@ export default function Welcome() {
                             <div className='text-white text-[30px] font-semibold sm:text-[20px]'>Design - Quality - Experience</div>
                         </div>
 
-                        <div className='bg-orange-400 p-4 rounded-sm w-[170px] text-center cursor-pointer hover:bg-orange-300 transition-all text-white'>Contact Now</div>
+                        <div className='bg-orange-400 p-4 rounded-sm w-[170px] text-center cursor-pointer hover:bg-orange-300 transition-all text-white'><a href="#contact">Contact Now</a></div>
                     </div>
 
                 </div>
