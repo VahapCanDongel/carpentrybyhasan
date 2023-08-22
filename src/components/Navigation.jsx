@@ -1,4 +1,12 @@
+import { useState } from "react";
+
 export default function Navigation() {
+  const [modalState, setModalState] = useState(false)
+
+  const toggleModal = () => {
+    setModalState(!modalState)
+  }
+
   return (
     <div className="flex justify-center items-center w-1/2 p-4 sm:w-full gap-[500px]  sm:justify-between sm:gap-0">
 
@@ -12,7 +20,7 @@ export default function Navigation() {
         <li className="bg-gray-200 p-2 rounded-sm">Contact</li>
       </ul>
 
-      <div className="hidden sm:bg-gray-200 sm:w-[60px] sm:h-[60px] sm:rounded-sm sm:flex sm:justify-center sm:items-center sm:visible md:hidden">
+      <div className="hidden sm:bg-gray-200 sm:w-[60px] sm:h-[60px] sm:rounded-sm sm:flex sm:justify-center sm:items-center sm:visible md:hidden" onClick={toggleModal}>
         <svg
           width="46"
           height="46"
@@ -27,6 +35,19 @@ export default function Navigation() {
           ></path>
         </svg>
       </div>
+
+      {modalState && (
+        <div className="hidden w-[200px] h-[200px] bg-zinc-200 absolute ml-[165px] mt-[100px] z-50 inset-1 rounded-md sm:block lg:hidden">
+          <ul className="text-[20px] flex flex-col justify-center h-[200px] gap-2 p-2">
+            <li>About</li>
+            <li>Services</li>
+            <li>Testimonials</li>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      )}
+
     </div>
   );
 }
