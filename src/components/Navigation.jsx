@@ -37,7 +37,10 @@ export default function Navigation() {
       </div>
 
       {modalState && (
-        <div className="hidden w-[200px] h-[200px] bg-zinc-200 absolute ml-[165px] mt-[100px] z-50 inset-1 rounded-md sm:block lg:hidden">
+        <div className="hidden w-[200px] h-min bg-zinc-200 absolute mr-auto z-50 inset-1 rounded-md sm:block lg:hidden">
+          <img src="https://i.ibb.co/9qtN66y/c03daa7a-df6e-4717-93b3-40ddb7aec2f0.jpg" className=" w-[100px] h-[100px] rounded-full p-2 object-cover" />
+
+
           <ul className="text-[20px] flex flex-col justify-center h-[200px] gap-2 p-2">
             <li><a href="#about">About</a></li>
             <li><a href="#service">Services</a></li>
