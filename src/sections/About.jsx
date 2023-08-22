@@ -33,15 +33,15 @@ export default function About() {
 
                 </div>
 
-                <div className='w-[420px] bg-gray-700  h-[450px] p-6 flex flex-col items-center justify-center gap-4'>
+                <div className='w-[420px] bg-gray-700  h-[450px] sm:w-[350px] p-6 flex flex-col items-center justify-center gap-4'>
                     <div className='text-white text-[25px] text-center font-semibold'>
                         Request a Quote
                     </div>
 
-                    <input type='text' placeholder='Your Name' className='p-2 rounded-sm w-[350px] bg-zinc-100' />
-                    <input type='email' placeholder='Your Email' className='p-2 rounded-sm w-[350px] bg-zinc-100' />
-                    <textarea placeholder='Your Message' className='p-2 rounded-sm w-[350px] h-[150px] resize-none bg-zinc-100'></textarea>
-                    <div className='bg-orange-400 p-3 rounded-sm mr-auto ml-2 text-white cursor-pointer hover:bg-orange-300 transition-all'>Send Message</div>
+                    <input type='text' placeholder='Your Name' className='p-2 rounded-sm w-[350px] sm:w-[330px] bg-zinc-100' />
+                    <input type='email' placeholder='Your Email' className='p-2 rounded-sm w-[350px] bg-zinc-100 sm:w-[330px]' />
+                    <textarea placeholder='Your Message' className='p-2 rounded-sm w-[350px] h-[150px] resize-none bg-zinc-100 sm:w-[330px]'></textarea>
+                    <div className='bg-orange-400 p-3 rounded-sm mr-auto ml-2 text-white cursor-pointer hover:bg-orange-300 transition-all sm:w-[280px]  sm:text-center'>Send Message</div>
                 </div>
             </div>
         </div>
