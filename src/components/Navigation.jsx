@@ -39,11 +39,11 @@ export default function Navigation() {
       {modalState && (
         <div className="hidden w-[200px] h-[200px] bg-zinc-200 absolute ml-[165px] mt-[100px] z-50 inset-1 rounded-md sm:block lg:hidden">
           <ul className="text-[20px] flex flex-col justify-center h-[200px] gap-2 p-2">
-            <li>About</li>
-            <li>Services</li>
-            <li>Testimonials</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       )}
